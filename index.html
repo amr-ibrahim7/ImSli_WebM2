@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 2</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="slider">
+        <figure class="slide">
+            <img src="Images/swiper1.jpg" alt="Image 1" >
+            <figcaption class="caption">Image 1</figcaption>
+        </figure>
+        <figure class="slide">
+            <img src="Images/swiper2.jpg" alt="Image 2" >
+            <figcaption class="caption">Image 2</figcaption>
+        </figure>
+        <figure class="slide">
+            <img src="Images/swiper3.jpg" alt="Image 3" >
+            <figcaption class="caption">Image 3</figcaption>
+        </figure>
+        <figure class="slide">
+            <img src="Images/swiper4.jpg" alt="Image 4" >
+            <figcaption class="caption">Image 4</figcaption>
+        </figure>
+        <figure class="slide">
+            <img src="Images/swiper5.jpg" alt="Image 5" >
+            <figcaption class="caption">Iamge 5</figcaption>
+        </figure>
+        <figure class="slide">
+            <img src="Images/swiper6.jpg" alt="Image 6" >
+            <figcaption class="caption">Image 6</figcaption>
+        </figure>
+        <figure class="slide">
+            <img src="Images/swiper7.jpg" alt="Image 7" >
+            <figcaption class="caption">Image 7</figcaption>
+        </figure>
+        <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
+        <button class="next" onclick="changeSlide(1)">&#10095;</button>
+    </div>
+    <ul class="dots">
+        <li class="dot" onclick="setSlide(0)"></li>
+        <li class="dot" onclick="setSlide(1)"></li>
+        <li class="dot" onclick="setSlide(2)"></li>
+        <li class="dot" onclick="setSlide(3)"></li>
+        <li class="dot" onclick="setSlide(4)"></li>
+        <li class="dot" onclick="setSlide(5)"></li>
+        <li class="dot" onclick="setSlide(6)"></li>
+    </div>
+    <div id="fullscreen" class="fullscreen">
+        <span class="close" onclick="closeFullscreen()">&times;</span>
+        <img id="fullscreenImage" src="">
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
